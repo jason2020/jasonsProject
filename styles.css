@@ -1,0 +1,12 @@
+body{
+	background-color: red;
+}
+p{
+	color: white;
+}
+p#egg{
+	color: yellow;
+}
+p.jason{
+	color: blue;
+}
