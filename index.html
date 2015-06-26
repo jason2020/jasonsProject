@@ -6,6 +6,22 @@
 </head>
 <body>
 	<img width="250px" height="450px" src="https://startupq8.files.wordpress.com/2012/08/chinese_dragon5.png">
+	<input id="clickMe" type="button" value="Click me!" onclick="doFunction();" />
+   <script type="text/javascript">
+      var doFunction = function(){
+	   var question = prompt("What is your favorite primary color?").toUpperCase();
+	   switch(question) {
+	   	case 'RED':
+	   		alert("Red is a cool color!");
+	   	break;
+	   	case 'BLUE':
+	   		alert("Blue is also an awesome color");
+	   	break;
+	   	case 'YELLOW':
+	   		alert("Yellow is a nice color");
+	   }
+	   };
+	</script>
 	<p id="egg">Egg</p>
 	<p class="jason">The Sky</p>
 	<p>Hello</p>
