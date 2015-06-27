@@ -6,8 +6,9 @@
 </head>
 <body>
 	<img width="250px" height="450px" src="https://startupq8.files.wordpress.com/2012/08/chinese_dragon5.png">
+	<br>
 	<input id="clickMe" type="button" value="Click me!" onclick="doFunction();" />
-   <script type="text/javascript">
+    <script type="text/javascript">
       var doFunction = function(){
 	   var question = prompt("What is your favorite primary color?").toUpperCase();
 	   switch(question) {
@@ -22,6 +23,21 @@
 	   }
 	   };
 	</script>
+	<br>
+	 <script type="text/javascript">
+    var button2 = function(){
+    var question2 =prompt("Enter a number in the textbox below");
+    if(question2 % 2 !== 0) {
+    	alert("Your number is odd");
+    }
+    else
+    {
+    	alert("Your number is even");
+    }
+    };
+    </script>
+	<input id="clickMe" type="button" value="Click This!" onclick="button2();" />
+   
 	<p id="egg">Egg</p>
 	<p class="jason">The Sky</p>
 	<p>Hello</p>
